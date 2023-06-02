@@ -1,11 +1,11 @@
-@font-face {
-  font-family: poppins;
-  src: url("https://fonts.googleapis.com/css?family=Poppins");
-}
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: poppins;
+
+  @font-face {
+    font-family: poppins;
+    src: url(<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>);
+  }
 }
 
 .nav {
@@ -15,21 +15,25 @@ body{
   display: flex;
   justify-content: space-between;
 }
-.nav a{
+
+.nav a {
   text-decoration: none;
   margin-top: 30px;
   color: #6070ff;
 }
-.nav .logo{
+
+.nav .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   margin-top: 38px;
 }
+
 .material-icons {
   margin-top: 10px;
   font-size: 28px;
 }
+
 .container {
   width: 375px;
   height: 718px;
@@ -38,20 +42,19 @@ body{
   background-repeat: no-repeat;
   border-radius: 0 0 10px 0;
 }
-.content{
+
+.content {
   padding-top: 30px;
   width: 327px;
   margin: auto;
-  
 }
 
 .content h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  padding-top: 80px;
+  padding-top: 40px;
   color: #344563;
-  padding-top: 35px;
   margin-bottom: 0;
 }
 
@@ -61,6 +64,7 @@ body{
   line-height: 24px;
   color: #344563;
 }
+
 span {
   color: #6070ff;
   font-size: 16px;
@@ -69,33 +73,40 @@ span {
   position: relative;
   top: 15px;
 }
-.icons{
+
+.icons {
   width: 329px;
   position: relative;
   top: 20px;
 }
-.icons .icon2{
+
+.icons .icon2 {
   position: absolute;
-  right:142px ;
+  right: 142px;
   top: 2px;
 }
-.icons .icon3{
+
+.icons .icon3 {
   position: absolute;
   right: 142px;
 }
-.icons .icon4{
+
+.icons .icon4 {
   position: absolute;
   right: 135px;
 }
-.icons .icon5{
+
+.icons .icon5 {
   position: absolute;
   right: 116px;
 }
-.icons .icon6{
+
+.icons .icon6 {
   position: absolute;
   right: 100px;
 }
-.icons .icon7{
+
+.icons .icon7 {
   position: absolute;
   right: 85px;
 }
