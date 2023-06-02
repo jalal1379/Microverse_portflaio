@@ -2,25 +2,34 @@
   font-family: poppins;
   src: url("https://fonts.googleapis.com/css?family=Poppins");
 }
+body{
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
 
-.header {
-  width: 375px;
+.nav {
+  width: 327px;
   height: 90px;
-  color: #6070ff;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-
-h2 {
-  font-size: 25px;
+.nav a{
+  text-decoration: none;
+  margin-top: 30px;
+  color: #6070ff;
 }
-
+.nav .logo{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 38px;
+}
 .material-icons {
-  margin-top: 25px;
-  font-size: 35px;
+  margin-top: 10px;
+  font-size: 28px;
 }
-
 .container {
   width: 375px;
   height: 718px;
@@ -29,53 +38,64 @@ h2 {
   background-repeat: no-repeat;
   border-radius: 0 0 10px 0;
 }
+.content{
+  padding-top: 30px;
+  width: 327px;
+  margin: auto;
+  
+}
 
-h1 {
-  font-size: 35px;
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
   padding-top: 80px;
-  color: #172b4d;
+  color: #344563;
+  padding-top: 35px;
+  margin-bottom: 0;
 }
 
-p {
-  font-size: 16.9px;
-  color: #172b4d;
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
-
 span {
   color: #6070ff;
-}
-
-.icons {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   position: relative;
-  display: inline-block;
+  top: 15px;
 }
-
-.icons .icon2 {
-  position: absolute;
-  left: 40px;
+.icons{
+  width: 329px;
+  position: relative;
+  top: 20px;
 }
-
-.icons .icon3 {
+.icons .icon2{
   position: absolute;
-  left: 40px;
+  right:142px ;
+  top: 2px;
 }
-
-.icons .icon4 {
+.icons .icon3{
   position: absolute;
-  left: 45px;
+  right: 142px;
 }
-
-.icons .icon5 {
+.icons .icon4{
   position: absolute;
-  left: 80px;
+  right: 135px;
 }
-
-.icons .icon6 {
+.icons .icon5{
   position: absolute;
-  left: 115px;
+  right: 116px;
 }
-
-.icons .icon7 {
+.icons .icon6{
   position: absolute;
-  left: 150px;
+  right: 100px;
+}
+.icons .icon7{
+  position: absolute;
+  right: 85px;
 }
