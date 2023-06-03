@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'jalal';
+  font-family: 'poppins';
   src: url(../Poppins/Poppins-ExtraBold.ttf);
 }
 
 body {
-  font-family: 'jalal', sans-serif;
+  font-family: 'poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -37,11 +37,13 @@ body {
 
 .container {
   width: 375px;
-  height: 718px;
+  height: 1200px;
   margin: auto;
   background-image: url(header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   border-radius: 0 0 10px 0;
+  background-color: #fff;
+ 
 }
 
 .content {
@@ -79,9 +81,14 @@ span {
   width: 329px;
   position: relative;
   top: 20px;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  position: relative;
+  right: 40px;
 }
 
-.icons .icon2 {
+.icons .icon2{
   position: absolute;
   right: 142px;
   top: 2px;
@@ -111,3 +118,239 @@ span {
   position: absolute;
   right: 85px;
 }
+.cards{
+  width: 375px;
+  height: 4200px;
+  background-color: #E5E5E5;
+  margin-top: 130px;
+  display: flex;
+}
+.cards .card1{
+  width: 327px;
+  height: 552px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+.card1 img{
+  width: 295px;
+  height: 220px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.cards h1{
+  position: relative;
+  left:16px ;
+  bottom: 15px;
+  font-size: 35px;
+}
+.cards h2{
+  position: relative;
+  left: 16px;
+  bottom: 40px;
+  font-size: 13px;
+}
+.cards .date{
+  display:flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  padding-top:0px;
+  position: relative;
+  bottom: 83px;
+  color: #7A869A;
+}
+.cards p{
+  width: 295px;
+  height: 76px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  bottom: 98px;
+  left: 16px;
+}
+.language li{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  padding: 4px 13px;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  color: #6070FF;
+ display: inline-block;
+ position: relative;
+ bottom: 112px;
+ right: 22px;  
+}
+.card1 button{
+  width: 102px;
+  height: 24;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #396DF2 ;
+  border: 1px  solid #396DF2;
+  padding: 10px 6px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 110px;
+  left: 16px;
+  background-color: #fff;
+}
+.cards .card2{
+  width: 327px;
+  height: 596px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+}
+.cards .card3{
+  width: 327px;
+  height: 552px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 116px auto;
+  border-radius: 10px;
+}
+.cards .card4{
+  width: 327px;
+  height: 596px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+}
+.about{
+  width: 375px;
+  height: 1400px;
+  background-color: white;
+  border-radius: 0 50px 0 0;
+  margin-top: 116px;
+  padding-top: 60px;
+  position: relative;
+  right: 24px;
+}
+.about p{
+  margin-top: 85px;
+}
+ .icons_2 li a img{
+  width: 17.99px;
+  height: 20px;
+}
+.icons_2 li{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  right: 40px;
+  bottom: 20px;
+}
+.icons_2 li .icon2{
+  width: 6px;
+  height: 14px;
+}
+.icons_2 li .icon3{
+  width: 6px;
+  height: 6px;
+  position: relative;
+  right: 12.5px;
+  bottom:8px;
+}
+.icons_2 li .icon4{
+  width: 15px;
+  position: relative;
+  right: 21px;
+}
+.icons_2 li .icon5{
+  position: relative;
+  right: 20px;
+}
+.icons_2 li .icon6{
+  position: relative;
+  right: 20px;
+}
+.icons_2 li .icon7{
+  position: relative;
+  right: 20px;
+}
+.about button{
+  width: 140px;
+  height: 40px;
+  position: relative;
+  bottom: 20px;
+}
+.about h2{
+  width: 237px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 50px;
+}
+.about .Union{
+  width: 14px;
+  height: 8px;
+  position:relative;
+  left: 240px;
+  bottom: 80px;
+}
+.about .languages{
+  width: 303px;
+  height:66.78px;
+  background-color: #F7F7F9;
+  color: #000000;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 60px;
+}
+.about .languages img{
+  width: 48px;
+  height: 48px;
+  background-color: #F7F7F9;
+  margin: 10px 10px;
+}
+.about .languages h4{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+  bottom: 69px;
+  left: 80px;
+}
+.about h3{
+  width: 327px;
+  height: 24px;
+  font-size: 24;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  border-bottom: 2px solid #DFE1E6;
+  padding: 15px;
+  position: relative;
+  bottom: 60px;
+}
+.about .Union1{
+  width: 6px;
+  height: 12px;
+  position: relative;
+  left: 240px;
+  bottom: 130px;
+  display: inline-block;
+}
+.about .skill{
+  position: relative;
+  bottom: 60px;
+}
+
+
+  
