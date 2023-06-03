@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
 <h1>Mohammad Jalal Ahmadi</h1>
 
-  <h3><b>Portflaio Microverse Project</b></h3>
+  <h3><b>Mobile Version Finish project</b></h3>
 
 </div>
 
@@ -58,10 +58,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portflaio Miicroverse Project] <a name="about-project"></a>
+# 📖 [Mobile_version_finish_project] <a name="about-project"></a>
 
 
-**[Portflaio Miicroverse Project]** is an essentail that the Micronats can creat the Portflaio Project by using HTML and CSS.
+**[Mobile_version_finish_project]** is an essentail that the Micronats can creat the Portflaio Project by using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -139,7 +139,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  https://github.com/jalal1379/Microverse_portflaio/tree/portflaio/project
+ https://github.com/jalal1379/Microverse_portflaio/tree/Mobile-Version-finish
 ```
 --->
 
@@ -205,11 +205,7 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/JalalAh78951382)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jalal-ahmadi-58312b270/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,7 +215,7 @@ Example:
 
 
 - [ ] **[Add_Footer]**
-- [ ] **[Add_text]**
+- [ ] **[Add_cards]**
 - [ ] **[Add_photo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
