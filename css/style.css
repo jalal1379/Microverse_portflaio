@@ -2,6 +2,7 @@
   font-family: 'poppins';
   src: url(../Poppins/Poppins-Bold.ttf);
 }
+
 @font-face {
   font-family: 'poppins1';
   src: url(../Poppins/Poppins-Light.ttf);
@@ -55,8 +56,9 @@ body {
 .content {
   padding-top: 30px;
   width: 327px;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
 }
+
 .content h1 {
   width: 327px;
   height: 150px;
@@ -74,12 +76,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  font-family: 'poppins1';
+  font-family: 'poppins1', sans-serif;
   margin-top: 0;
-  padding-bottom:150px;
+  padding-bottom: 150px;
 }
 
-.content span{
+.content span {
   width: 117px;
   height: 24px;
   color: #6070ff;
@@ -87,22 +89,17 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
-.icons_list .icons li{
+
+.icons_list .icons li {
   flex-direction: row;
   position: relative;
   bottom: 170px;
   right: 112px;
   list-style-type: none;
-  margin: 0 10px ;
-  
+  margin: 0 10px;
 }
-.icons{
+
+.icons {
   display: flex;
   padding-left: 67px;
 }
-
-
-
-
-
-
