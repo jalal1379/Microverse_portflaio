@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'poppins';
-  src: url(../Poppins/Poppins-ExtraBold.ttf);
+  src: url(../Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'poppins1';
+  src: url(../Poppins/Poppins-Light.ttf);
 }
 
 body {
@@ -42,72 +46,63 @@ body {
   background-image: url(header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   border-radius: 0 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
   padding-top: 30px;
   width: 327px;
-  margin: auto;
+  font-family: 'poppins';
 }
-
 .content h1 {
+  width: 327px;
+  height: 150px;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  padding-top: 40px;
   color: #344563;
   margin-bottom: 0;
 }
 
 .content p {
+  width: 327px;
+  height: 146;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  font-family: 'poppins1';
+  margin-top: 0;
+  padding-bottom:150px;
 }
 
-span {
+.content span{
+  width: 117px;
+  height: 24px;
   color: #6070ff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
+}
+.icons_list .icons li{
+  flex-direction: row;
   position: relative;
-  top: 15px;
+  bottom: 170px;
+  right: 112px;
+  list-style-type: none;
+  margin: 0 10px ;
+  
+}
+.icons{
+  display: flex;
+  padding-left: 67px;
 }
 
-.icons {
-  width: 329px;
-  position: relative;
-  top: 20px;
-}
 
-.icons .icon2 {
-  position: absolute;
-  right: 142px;
-  top: 2px;
-}
 
-.icons .icon3 {
-  position: absolute;
-  right: 142px;
-}
 
-.icons .icon4 {
-  position: absolute;
-  right: 135px;
-}
 
-.icons .icon5 {
-  position: absolute;
-  right: 116px;
-}
 
-.icons .icon6 {
-  position: absolute;
-  right: 100px;
-}
-
-.icons .icon7 {
-  position: absolute;
-  right: 85px;
-}
