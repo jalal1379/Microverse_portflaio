@@ -22,7 +22,12 @@ body {
   justify-content: space-between;
 }
 
-.header .material-icons{
+.material-icons {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.header .material-icons {
   text-decoration: none;
   margin-top: 30px;
   color: #6070ff;
@@ -34,11 +39,6 @@ body {
   line-height: 20px;
   margin-top: 38px;
   color: #6070ff;
-}
-
-.material-icons {
-  margin-top: 10px;
-  font-size: 28px;
 }
 
 .container {
