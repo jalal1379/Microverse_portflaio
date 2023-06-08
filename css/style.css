@@ -52,6 +52,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .content {
@@ -91,6 +92,22 @@ body {
   line-height: 24px;
 }
 
+.button li {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  padding: 4px 12px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ebebff;
+  color: #6070ff;
+  display: inline-block;
+  position: relative;
+  left: -25px;
+  bottom: px;
+}
+
 .icons_list .icons li {
   flex-direction: row;
   position: relative;
@@ -103,4 +120,531 @@ body {
 .icons {
   display: flex;
   padding-left: 67px;
+}
+
+.cards {
+  width: 375px;
+  height: 4120px;
+  background-color: #e5e5e5;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first_card {
+  width: 327px;
+  height: 552px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 116px auto 0;
+}
+
+.first_card img {
+  padding-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: 16px;
+}
+
+.first_card h2 {
+  width: 295px;
+  height: 36px;
+  margin-left: 16px;
+  font-family: 'poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 8px;
+}
+
+.first_card h3 {
+  width: 55px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'poppins', sans-serif;
+  color: #344563;
+  margin-left: 16px;
+  margin-top: -8px;
+}
+
+.first_card .birth {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -12px;
+  margin-top: -27px;
+}
+
+.first_card .year {
+  margin-left: -45px;
+}
+
+.first_card p {
+  width: 295px;
+  height: 76px;
+  font-family: 'poppins1', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 16px;
+}
+
+.first_card button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.second_card {
+  width: 327px;
+  height: 596px;
+  background-color: #fff;
+  margin: 116px auto 0 auto;
+  border-radius: 16px;
+}
+
+.second_card img {
+  padding-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: 16px;
+}
+
+.second_card h2 {
+  width: 295px;
+  height: 36px;
+  margin-left: 16px;
+  font-family: 'poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 8px;
+}
+
+.second_card h3 {
+  width: 55px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'poppins', sans-serif;
+  color: #344563;
+  margin-left: 16px;
+  margin-top: 70px;
+}
+
+.second_card .birth {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -12px;
+  margin-top: -28px;
+}
+
+.second_card .year {
+  margin-left: -45px;
+}
+
+.second_card p {
+  width: 295px;
+  height: 76px;
+  font-family: 'poppins1', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.second_card .button li {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  padding: 4px 12px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ebebff;
+  color: #6070ff;
+  display: inline-block;
+}
+
+.second_card button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.third_card {
+  width: 327px;
+  height: 552px;
+  border: 1px solid #dfe1e6;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 116px auto 0;
+}
+
+.third_card img {
+  padding-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: 16px;
+}
+
+.third_card h2 {
+  width: 295px;
+  height: 36px;
+  margin-left: 16px;
+  font-family: 'poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 8px;
+}
+
+.third_card h3 {
+  width: 55px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'poppins', sans-serif;
+  color: #344563;
+  margin-left: 16px;
+  margin-top: -8px;
+}
+
+.third_card .birth {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -12px;
+  margin-top: -27px;
+}
+
+.third_card .year {
+  margin-left: -45px;
+}
+
+.third_card p {
+  width: 295px;
+  height: 76px;
+  font-family: 'poppins1', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 16px;
+}
+
+.third_card .button li {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  padding: 4px 12px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ebebff;
+  color: #6070ff;
+  display: inline-block;
+  position: relative;
+  left: -25px;
+  bottom: px;
+}
+
+.third_card button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.fourth_card {
+  width: 327px;
+  height: 596px;
+  background-color: #fff;
+  margin: 116px auto;
+  border-radius: 16px;
+}
+
+.fourth_card img {
+  padding-top: 16px;
+  width: 295px;
+  height: 220px;
+  margin-left: 16px;
+}
+
+.fourth_card h2 {
+  width: 295px;
+  height: 36px;
+  margin-left: 16px;
+  font-family: 'poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 8px;
+}
+
+.fourth_card h3 {
+  width: 55px;
+  height: 16px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'poppins', sans-serif;
+  color: #344563;
+  margin-left: 16px;
+  margin-top: 70px;
+}
+
+.fourth_card .birth {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -12px;
+  margin-top: -28px;
+}
+
+.fourth_card .year {
+  margin-left: -45px;
+}
+
+.fourth_card p {
+  width: 295px;
+  height: 76px;
+  font-family: 'poppins1', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.fourth_card .button li {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  list-style-type: none;
+  padding: 4px 12px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ebebff;
+  color: #6070ff;
+  display: inline-block;
+}
+
+.fourth_card button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.about {
+  width: 375px;
+  height: 1250px;
+  border-radius: 0 80px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.about h1 {
+  width: 327px;
+  height: 35px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: 'poppins', sans-serif;
+  color: #172b4d;
+  margin-top: 100px;
+  margin-left: 16px;
+}
+
+.about p {
+  width: 327px;
+  height: 147px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'poppins1', sans-serif;
+  margin-left: 16px;
+  margin-top: -20px;
+}
+
+.about span {
+  width: 117px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'poppins1', sans-serif;
+  color: #7f8cff;
+  margin-left: 16px;
+}
+
+.about .social_media li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 7px;
+  position: relative;
+  left: -20px;
+}
+
+.about .social_media .media {
+  color: #505f79;
+  font-size: 25px;
+}
+
+.about button {
+  width: 152px;
+  height: 35px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 1% 1%;
+  padding-left: 2%;
+  border-radius: 10px;
+  font-family: 'poppins1', sans-serif;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  margin-left: 16px;
+  background-color: #fff;
+}
+
+.about .languages h4 {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.about .languages i {
+  color: #acb7c3;
+  position: relative;
+  left: 300px;
+  bottom: 45px;
+  font-size: 20px;
+}
+
+.languages .lan li {
+  width: 303px;
+  height: 66.72px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin: 40px;
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.languages .lan li img {
+  margin-top: 10px;
+  margin-left: 10px;
+  clip-path: circle(25px);
+}
+
+.languages .lan li h5 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #253858;
+  display: flex;
+  margin-left: 80px;
+  margin-top: -40px;
+  font-family: 'poppins1', sans-serif;
+}
+
+.about .skill {
+  list-style-type: none;
+  font-family: 'poppins1', sans-serif;
+  color: #000;
+}
+
+.about .skill .work {
+  width: 327px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 2px solid #dfe1e6;
+  padding: 0 0 20px 15px;
+  margin-left: -45px;
+}
+
+.about .skill .fa {
+  color: #acb7c3;
+  margin-left: 220px;
+  position: relative;
+  bottom: 40px;
+  font-size: 20px;
 }
