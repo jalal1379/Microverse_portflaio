@@ -608,7 +608,7 @@ body {
   flex-direction: column;
 }
 
-.about h1 {
+.about h4 {
   width: 327px;
   height: 35px;
   font-size: 40px;
@@ -631,7 +631,7 @@ body {
   margin-top: -20px;
 }
 
-.about h6 {
+.about h5 {
   width: 117px;
   height: 24px;
   font-weight: 500;
@@ -678,7 +678,7 @@ body {
   margin-left: -40px;
 }
 
-.about .languages h4 {
+.about .languages h6 {
   color: #000;
   font-weight: 500;
   font-size: 20px;
