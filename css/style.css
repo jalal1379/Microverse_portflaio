@@ -128,7 +128,6 @@ body {
   background-color: #e5e5e5;
   margin: auto;
   display: grid;
-  
 }
 
 .first_card {
@@ -202,8 +201,8 @@ body {
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-  color: #6070FF;
-  border: 1px  solid #6070FF;
+  color: #6070ff;
+  border: 1px  solid #6070ff;
   padding: 8px;
   border-radius: 10px;
   display: flex;
@@ -214,19 +213,96 @@ body {
   margin-left: 16px;
   margin-top: 30px;
 }
-.first_card button:enabled{
-  color: #6070FF;
+
+.about button {
+  cursor: pointer;
+  width: 152px;
+  height: 35px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 1% 1%;
+  padding-left: 2%;
+  border-radius: 10px;
+  font-family: 'poppins1', sans-serif;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  margin-left: 16px;
+  background-color: #fff;
 }
-.first_card button:hover{
-  background-color: #6070FF;
+
+.fourth_card button {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.second_card button {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.third_card button {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px  solid #396df2;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.first_card button:enabled {
+  color: #6070ff;
+}
+
+.first_card button:hover {
+  background-color: #6070ff;
   color: white;
 }
-.first_card button:active{
+
+.first_card button:active {
   background-color: #0519ce;
-  column-rule: #E5E5E5;
+  column-rule: #e5e5e5;
 }
-.first_card button:disabled{
-  color: #E5E5E5;
+
+.first_card button:disabled {
+  color: #e5e5e5;
 }
 
 .second_card {
@@ -308,36 +384,22 @@ body {
   display: inline-block;
 }
 
-.second_card button {
-  cursor: pointer;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #396df2;
-  border: 1px  solid #396df2;
-  padding: 8px;
-  border-radius: 10px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.03em;
-  background-color: #fff;
-  margin-left: 16px;
-  margin-top: 20px;
+.second_card button:enabled {
+  color: #6070ff;
 }
-.second_card button:enabled{
-  color: #6070FF;
-}
-.second_card button:hover{
-  background-color: #6070FF;
+
+.second_card button:hover {
+  background-color: #6070ff;
   color: white;
 }
-.second_card button:active{
+
+.second_card button:active {
   background-color: #0519ce;
-  column-rule: #E5E5E5;
+  column-rule: #e5e5e5;
 }
-.second_card button:disabled{
-  color: #E5E5E5;
+
+.second_card button:disabled {
+  color: #e5e5e5;
 }
 
 .third_card {
@@ -422,36 +484,22 @@ body {
   bottom: px;
 }
 
-.third_card button {
-  cursor: pointer;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #396df2;
-  border: 1px  solid #396df2;
-  padding: 8px;
-  border-radius: 10px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.03em;
-  background-color: #fff;
-  margin-left: 16px;
-  margin-top: 30px;
+.third_card button:enabled {
+  color: #6070ff;
 }
-.third_card button:enabled{
-  color: #6070FF;
-}
-.third_card button:hover{
-  background-color: #6070FF;
+
+.third_card button:hover {
+  background-color: #6070ff;
   color: white;
 }
-.third_card button:active{
+
+.third_card button:active {
   background-color: #0519ce;
-  column-rule: #E5E5E5;
+  column-rule: #e5e5e5;
 }
-.third_card button:disabled{
-  color: #E5E5E5;
+
+.third_card button:disabled {
+  color: #e5e5e5;
 }
 
 .fourth_card {
@@ -533,36 +581,22 @@ body {
   display: inline-block;
 }
 
-.fourth_card button {
-  cursor: pointer;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #396df2;
-  border: 1px  solid #396df2;
-  padding: 8px;
-  border-radius: 10px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.03em;
-  background-color: #fff;
-  margin-left: 16px;
-  margin-top: 20px;
+.fourth_card button:enabled {
+  color: #6070ff;
 }
-.fourth_card button:enabled{
-  color: #6070FF;
-}
-.fourth_card button:hover{
-  background-color: #6070FF;
+
+.fourth_card button:hover {
+  background-color: #6070ff;
   color: white;
 }
-.fourth_card button:active{
+
+.fourth_card button:active {
   background-color: #0519ce;
-  column-rule: #E5E5E5;
+  column-rule: #e5e5e5;
 }
-.fourth_card button:disabled{
-  color: #E5E5E5;
+
+.fourth_card button:disabled {
+  color: #e5e5e5;
 }
 
 .about {
@@ -621,42 +655,29 @@ body {
   font-size: 25px;
 }
 
-.about button {
-  cursor: pointer;
-  width: 152px;
-  height: 35px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #396df2;
-  border: 1px  solid #396df2;
-  padding: 1% 1%;
-  padding-left: 2%;
-  border-radius: 10px;
-  font-family: 'poppins1', sans-serif;
-  text-align: center;
-  letter-spacing: 0.03rem;
-  margin-left: 16px;
-  background-color: #fff;
+.about button:enabled {
+  color: #6070ff;
 }
-.about button:enabled{
-  color: #6070FF;
-}
-.about button:hover{
-  background-color: #6070FF;
+
+.about button:hover {
+  background-color: #6070ff;
   color: white;
 }
-.about button:active{
+
+.about button:active {
   background-color: #0519ce;
-  column-rule: #E5E5E5;
+  column-rule: #e5e5e5;
 }
-.about button:disabled{
-  color: #E5E5E5;
+
+.about button:disabled {
+  color: #e5e5e5;
 }
-.about .languages{
+
+.about .languages {
   list-style-type: none;
   margin-left: -40px;
 }
+
 .about .languages h4 {
   color: #000;
   font-weight: 500;
