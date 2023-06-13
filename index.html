@@ -157,19 +157,18 @@
                 feature that you need built or aproject that needs coding. 
                 
                 I’d love to help with it!</p>
-                <form class="contact_form">
-                     <label for=""></label>
-                    <input type="text" placeholder="Lorem Ipsum" value="" class="form1">
-
-                    <input type="email" placeholder="loremipsum@gmail.com" class="form2">
-
-                    <input type="text" placeholder="write your massage here" class="form3">
+                <form class="contact_form" action="https://formspree.io/f/mjvdadbe" method="post">
+                     
+                    <input name="Name" id="name" type="text" placeholder="Enter your name"  class="form1"  required maxlength="30">
                     
+                    <input type="email" class="form2" name="email" id="email" placeholder="loramipsum@gmail.com" required>
+                    
+                    <textarea name="message" id="message" class="form3" placeholder="Write your message here" maxlength="500" required></textarea>
+                    
+                    <button class="form_btn" type="submit">Get in touch</button>
                 </form>
 
-                <div class="contact_button">
-                    <button type="submit" class="contact_button__item">Get in touch</button>
-                </div>
+                
              
                
             </section>
