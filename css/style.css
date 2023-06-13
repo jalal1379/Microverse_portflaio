@@ -848,17 +848,21 @@ body {
   margin-bottom: 43px;
   margin-left: -190px;
 }
-.contact .contact_button .contact_button__item:enabled{
+
+.contact .contact_button .contact_button__item:enabled {
   color: #6070ff;
 }
-.contact .contact_button .contact_button__item:hover{
+
+.contact .contact_button .contact_button__item:hover {
   background-color: #6070ff;
   color: white;
 }
-.contact .contact_button .contact_button__item:active{
+
+.contact .contact_button .contact_button__item:active {
   background-color: #0519ce;
   column-rule: #e5e5e5;
 }
-.contact .contact_button .contact_button__item:disabled{
+
+.contact .contact_button .contact_button__item:disabled {
   color: #e5e5e5;
 }
