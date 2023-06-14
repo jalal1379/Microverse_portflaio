@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
 <h1>Mohammad Jalal Ahmadi</h1>
 
-  <h3><b>Portflaio:Finish-mobile-version</b></h3>
+  <h3><b>Portflaio:contact-form-mobile-version</b></h3>
 
 </div>
 
@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Portflaio Miicroverse Project] <a name="about-project"></a>
 
 
-**[Portflaio:Finish-mobile-version Microverse Project]** is an essentail that the Micronats can creat the Portflaio Project by using HTML and CSS.
+**[Portflaio:contact-form-mobile-version Microverse Project]** is an essentail that the Micronats can creat the Portflaio Project by using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 1-HTML
