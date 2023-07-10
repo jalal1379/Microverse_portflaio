@@ -849,20 +849,4 @@ body {
   margin-top: 16px;
 }
 
-.contact_form .form_btn:enabled {
-  color: #6070ff;
-}
 
-.contact_form .form_btn:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.contact_form .form_btn:active {
-  background-color: #0519ce;
-  column-rule: #e5e5e5;
-}
-
-.contact_form .form_btn:disabled {
-  color: #e5e5e5;
-}
