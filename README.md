@@ -26,9 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-<h1>Mohammad Jalal Ahmadi</h1>
-
-  <h3><b>Portflaio:contact-form-mobile-version</b></h3>
+<h1>Mohammad Jalal Ahmadi's Portflaio </h1>
 
 </div>
 
@@ -53,7 +51,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -125,75 +122,41 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - **[Visual_Studio_Code]**
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
   git clone https://github.com/jalal1379/Microverse_portflaio.git
 ```
---->
+
 
 ### Install
-
-- **[comming_soon]**
-
-<!--
-Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
 
 ### Usage
 
 - **[Open index.html file in VS code, run via live server extension]**
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
-- **[Comming_soon]**
 
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm hint .
 ```
---->
+
 
 ### Deployment
 
-- **[Comming_soon]**
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Local Server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,9 +179,9 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add_Footer]**
-- [ ] **[Add_text]**
-- [ ] **[Add_photo]**
+- [ ] **Add more animation**
+- [ ] **Add dynamic projects**
+- [ ] **Add database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,7 +191,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/jalal1379/Microverse_portflaio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
