@@ -850,20 +850,19 @@ body {
 }
 
 .contact_form .form_btn:enabled {
- color: #6070FF;
+  color: #6070ff;
 }
 
 .contact_form .form_btn:hover {
- background-color: #6070FF;
- color: white;
+  background-color: #6070ff;
+  color: white;
 }
 
 .contact_form .form_btn:active {
- background-color: #0519CE;
- column-rule: #E5E5E5;
+  background-color: #0519ce;
+  column-rule: #e5e5e5;
 }
 
 .contact_form .form_btn:disabled {
- color: #E5E5E5;
+  color: #e5e5e5;
 }
-
